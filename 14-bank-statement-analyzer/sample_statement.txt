@@ -1,0 +1,34 @@
+BANK OF AMERICA
+Account Statement
+Account Number: ****1234
+Statement Period: January 1, 2024 - January 31, 2024
+
+Account Holder: John Smith
+Address: 123 Main Street, Anytown, USA
+
+TRANSACTIONS
+=================================================================
+Date       Description                          Debit      Credit    Balance
+---------------------------------------------------------------------------
+01/01/24   Opening Balance                                          $12,450.00
+01/03/24   PAYROLL DEPOSIT - ACME INC                    $4,500.00  $16,950.00
+01/05/24   RENT - RIVERSIDE APARTMENTS         $1,850.00            $15,100.00
+01/07/24   GROCERY MART                          $127.45            $14,972.55
+01/10/24   UTILITIES - ELECTRIC COMPANY          $145.20            $14,827.35
+01/12/24   NETFLIX SUBSCRIPTION                   $15.99            $14,811.36
+01/15/24   ATM WITHDRAWAL                        $100.00            $14,711.36
+01/17/24   LANDLORD PAYMENT - JAN RENT         $1,850.00            $12,861.36
+01/20/24   GAS STATION                            $65.30            $12,796.06
+01/22/24   ONLINE SHOPPING - AMAZON              $234.56            $12,561.50
+01/25/24   RESTAURANT - PIZZA PLACE               $42.80            $12,518.70
+01/28/24   HOUSING LEASE PMT - UNIT 4B         $1,850.00            $10,668.70
+01/30/24   WATER & SEWAGE BILL                    $58.90            $10,609.80
+
+=================================================================
+Ending Balance: $10,609.80
+
+Summary:
+Total Deposits: $4,500.00
+Total Withdrawals: $6,340.20
+
+Thank you for banking with us!

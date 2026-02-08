@@ -162,3 +162,8 @@ cython_debug/
 node_modules/
 
 .DS_Store
+
+# Bank statement analyzer output
+extracted_rent_payments/
+*_statement.txt
+!sample_statement.txt
