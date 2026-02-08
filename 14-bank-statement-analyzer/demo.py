@@ -39,7 +39,7 @@ def mock_extract_rent_payments(statement_text):
                         if len(year) == 2:
                             year = '20' + year
                         date = f"{year}-{month.zfill(2)}-{day.zfill(2)}"
-                    except:
+                    except (ValueError, IndexError):
                         pass
                 
                 # Look for amount (contains $ or decimal)
