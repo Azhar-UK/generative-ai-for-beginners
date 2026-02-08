@@ -12,20 +12,40 @@ This application uses Generative AI (OpenAI's GPT models) to:
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Quick Start (No API Key Required!)
+
+Try the demo version first to see how it works:
+
+```bash
+cd 14-bank-statement-analyzer
+python demo.py
+```
+
+This will run a demonstration using keyword-based extraction on the sample bank statement.
+
+### Full Version Setup
+
+For the AI-powered version:
+
+#### Prerequisites
 
 - Python 3.7 or higher
 - OpenAI API key (or Azure OpenAI credentials)
 - Required Python packages (see requirements in main repo)
 
-### Installation
+#### Installation
 
 1. Navigate to this directory:
 ```bash
 cd 14-bank-statement-analyzer
 ```
 
-2. Set up your environment variables by creating a `.env` file:
+2. Install required packages:
+```bash
+pip install openai python-dotenv
+```
+
+3. Set up your environment variables by creating a `.env` file:
 ```bash
 # For Standard OpenAI
 API_KEY=your_openai_api_key_here
@@ -37,24 +57,32 @@ DEPLOYMENT_NAME=your_deployment_name
 
 ### Usage
 
-#### Option 1: Using the Sample Statement
+#### Option 1: Demo Mode (No API Key)
 
-Simply run the application with the included sample statement:
+Run the demo version to test without an API key:
+
+```bash
+python demo.py
+```
+
+#### Option 2: AI-Powered Version
+
+Run the full AI-powered application:
 
 ```bash
 python app.py
 ```
 
-This will analyze the `sample_statement.txt` file and extract rent payments.
+This will analyze the `sample_statement.txt` file and extract rent payments using OpenAI.
 
-#### Option 2: Using Your Own Bank Statement
+#### Option 3: Using Your Own Bank Statement
 
 1. Create a text file with your bank statement content (you can copy/paste from a PDF or export)
 2. Save it as `sample_statement.txt` in this directory (or modify the code to point to your file)
 3. Run the application:
 
 ```bash
-python app.py
+python app.py  # or python demo.py for keyword-based extraction
 ```
 
 ## 📂 Output
@@ -124,7 +152,8 @@ Simply update the prompt in the `extract_rent_payments()` function!
 
 ```
 14-bank-statement-analyzer/
-├── app.py                      # Main application
+├── app.py                      # Main AI-powered application
+├── demo.py                     # Demo version (no API key needed)
 ├── sample_statement.txt        # Sample bank statement
 ├── README.md                   # This file
 ├── .env.example               # Environment variable template
